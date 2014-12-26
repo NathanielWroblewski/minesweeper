@@ -1,0 +1,58 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: 'white';
+  color: #444;
+  text-align: center;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444;
+  font-family: 'Montserrat', sans-serif;
+  margin: 15px;
+  padding: 0;
+}
+
+.board div {
+  margin: 5px;
+  height: 50px;
+  width: 50px;
+  float: left;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 50px;
+  background-color: #dcdcdc;
+  cursor: pointer;
+  color: white;
+}
+
+.board div:nth-child(8n + 1) { clear: both; }
+.board div:hover { background-color: #cbcbcb; }
+
+.board .zero        { background-color: #ededed; cursor: auto; }
+.board .one         { background-color: #6BB9F0; cursor: auto; }
+.board .two         { background-color: #3FC380; cursor: auto; }
+.board .three       { background-color: #FDE3A7; cursor: auto; }
+.board .four        { background-color: #F4D03F; cursor: auto; }
+.board .five        { background-color: #F4B350; cursor: auto; }
+.board .six         { background-color: #E08283; cursor: auto; }
+.board .seven       { background-color: #E26A6A; cursor: auto; }
+.board .eight       { background-color: #D64541; cursor: auto; }
+.board .mine        { background-color: #777777; cursor: auto; }
+
+.board .zero:hover  { background-color: #ededed; }
+.board .one:hover   { background-color: #6BB9F0; }
+.board .two:hover   { background-color: #3FC380; }
+.board .three:hover { background-color: #FDE3A7; }
+.board .four:hover  { background-color: #F4D03F; }
+.board .five:hover  { background-color: #F4B350; }
+.board .six:hover   { background-color: #E08283; }
+.board .seven:hover { background-color: #E26A6A; }
+.board .eight:hover { background-color: #D64541; }
+.board .mine:hover  { background-color: #777777; }
