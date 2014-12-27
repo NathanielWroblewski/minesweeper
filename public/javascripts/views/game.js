@@ -38,11 +38,7 @@ Minesweeper.Views.Game = function(options) {
   }
 
   this.valueFor = function(value) {
-    if (value === 0) {
-      return ''
-    } else {
-      return value
-    }
+    return value
   }
 
   this.checkWinCondition = function(index) {

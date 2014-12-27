@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 .board div:nth-child(8n + 1) { clear: both; }
 .board div:hover { background-color: #cbcbcb; }
 
-.board .zero        { background-color: #ededed; cursor: auto; }
+.board .zero        { background-color: #E4F1FE; cursor: auto; }
 .board .one         { background-color: #6BB9F0; cursor: auto; }
 .board .two         { background-color: #3FC380; cursor: auto; }
 .board .three       { background-color: #FDE3A7; cursor: auto; }
@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 .board .eight       { background-color: #D64541; cursor: auto; }
 .board .mine        { background-color: #777777; cursor: auto; }
 
-.board .zero:hover  { background-color: #ededed; }
+.board .zero:hover  { background-color: #E4F1FE; }
 .board .one:hover   { background-color: #6BB9F0; }
 .board .two:hover   { background-color: #3FC380; }
 .board .three:hover { background-color: #FDE3A7; }
